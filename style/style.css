@@ -15,8 +15,8 @@ span {
 
 header {
     background-color: #2e2f31;
-    padding-top: 16px;
-    padding-bottom: 16px;
+    padding-top: 9px;
+    padding-bottom: 9px;
     color: white;
     position: sticky;
     top: 0;
@@ -31,10 +31,29 @@ header nav li {
 
 }
 
+header img {
+    height: 8vh;
+}
+
+footer {
+    background-color: #2e2f31;
+    padding-top: 2vh;
+    color: white;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer li img {
+    height: 5vh;
+}
+
 header .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-size: 2em;
 }
 
 .container {
@@ -56,7 +75,7 @@ header .container {
 
 .container-grid {
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%; 
+    grid-template-columns: 25% 25% 25% 25%;
 }
 
 .container ul li a:hover {
@@ -68,7 +87,7 @@ section {
 }
 
 section .container {
-    padding-top: 80px;
+    padding-top: 105px;
     display: flex;
     justify-content: space-between;
     text-align: justify;
@@ -81,13 +100,14 @@ section h2 {
 section p {
     margin-left: 24px;
 }
-#topo p{
+
+#topo p {
     font-size: 1.4em;
     margin-bottom: 9px;
 }
 
-#foto-interna{
-    height: 75vh;
+#foto-interna {
+    height: 65vh;
 }
 
 #item img {
@@ -100,6 +120,7 @@ section p {
     margin-left: 11px;
     width: 100%;
 }
+
 .destaqueprod {
     border-bottom: 2px solid red;
     margin-bottom: 10px;
@@ -125,17 +146,19 @@ section p {
 .lista-produtos li h3 {
     margin: 16px 0;
 }
+
 .lista-produtos li p {
     margin: 16px 0;
 }
 
-.item{
+.item {
     display: grid;
-    grid-template-columns: 20% 20% 20% 20%; 
+    grid-template-columns: 20% 20% 20% 20%;
     column-gap: 5%;
     row-gap: 5%;
 }
-.itens{
+
+.itens {
     max-width: 100%;
 }
 
