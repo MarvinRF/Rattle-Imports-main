@@ -81,11 +81,17 @@ section h2 {
 section p {
     margin-left: 24px;
 }
+#topo p{
+    font-size: 1.4em;
+    margin-bottom: 9px;
+}
 
-section img {
-    max-height: 70vh;
-    min-height: 40vh;
+#foto-interna{
+    height: 75vh;
+}
 
+#item img {
+    height: 25vh;
 }
 
 .destaque {
