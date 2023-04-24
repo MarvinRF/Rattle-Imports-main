@@ -196,12 +196,14 @@ button {
         justify-content: center;
         clear: both;
         padding: 0;
-        margin: 0;
+        margin-left: 28px;
     }
 
     #sobre .container p {
-        font-size: 0.6em;
+        font-size: 1.2em;
         padding-bottom: 5px;
+        margin-left: 24px;
+        margin-right: -16px;
     }
 
     #sobre .container h2 {
@@ -210,39 +212,47 @@ button {
     }
 
     #sobre .container img {
-        width: 95%;
+        width: 105%;
         height: 50%;
-        padding-left: 16%;
-        padding-top: 8%;
+        padding-left: 6%;
+        padding-top: 11%;
         padding-bottom: 5%;
     }
 
+    #topo {
+        margin-left: -10px;
+    }
+
     .container {
-        display: block;
-        max-width: 95%;
+        max-width: 80%;
     }
 
     section .container {
-        padding-top: 40px;
-        padding-bottom: 50px;
+        padding-top: 26px;
+        padding-bottom: 52px;
+    }
+
+    section h2 {
+        margin-bottom: 8px;
     }
 
     .destaque {
-        margin-bottom: 20px;
-        margin-left: 10px;
+        margin-bottom: 18px;
+        margin-left: 26px;
+        width: 97%;
     }
 
     .destaqueprod {
-        margin-top: -80px;
-        margin-bottom: -60px;
-        max-width: 1024px;
+        margin-top: -71px;
+        margin-bottom: -45px;
+        max-width: 640px;
         width: 100%;
         padding-top: -100px;
         padding-bottom: -100px;
     }
 
     #produtos {
-        margin-top: -10px;
+        margin-top: -21px;
     }
 
     .destaqueprod h2 {
@@ -302,8 +312,8 @@ button {
     #sobre .container p {
         font-size: 1.6em;
         padding-bottom: 5px;
-        margin-left: 113px;
-        width: 78%;
+        margin-left: 106px;
+        width: 79%;
         text-align: justify;
     }
 
@@ -397,18 +407,18 @@ button {
 
     .destaque {
         border-bottom: 2px solid red;
-        margin-bottom: 30px;
-        margin-left: 107px;
+        margin-bottom: 24px;
+        margin-left: 106px;
         width: 79%;
     }
 
     .destaqueprod {
         border-bottom: 2px solid red;
         margin-bottom: 10px;
-        max-width: 810px;
-        width: 100%;
+        max-width: 817px;
+        width: 79%;
         margin: 0 auto;
-        margin-left: 99px;
+        margin-left: 97px;
     }
 
     .lista-produtos {
