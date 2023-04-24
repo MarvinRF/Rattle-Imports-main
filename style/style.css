@@ -9,6 +9,11 @@ html {
     overflow-x: hidden;
 }
 
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
 span {
     color: rgb(255, 0, 0);
 }
@@ -93,7 +98,7 @@ section {
 }
 
 section .container {
-    padding-top: 105px;
+    padding-top: 60px;
     display: flex;
     justify-content: space-between;
     text-align: justify;
@@ -205,7 +210,8 @@ button {
     }
 
     #sobre .container img {
-        height: 90vh;
+        width: 95%;
+        height: 50%;
         padding-left: 16%;
         padding-top: 8%;
         padding-bottom: 5%;
@@ -279,5 +285,177 @@ button {
 
     button {
         margin-bottom: 60px;
+    }
+}
+
+@media screen and (min-width: 641px) and (max-width: 1023px) {
+
+    #sobre .container {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        clear: both;
+        padding: 0;
+        margin: 0;
+    }
+
+    #sobre .container p {
+        font-size: 1.6em;
+        padding-bottom: 5px;
+        margin-left: 113px;
+        width: 78%;
+        text-align: justify;
+    }
+
+    #sobre .container h2 {
+        font-size: 1.6em;
+        padding-top: 1px;
+    }
+
+    #sobre .container img {
+        width: 96%;
+        height: 38%;
+        padding-left: 11%;
+        padding-right: 6%;
+        padding-top: 8%;
+        padding-bottom: 6%;
+    }
+
+    .container {
+        max-width: 95%;
+    }
+
+    section .container {
+        padding-top: 40px;
+
+    }
+
+    .container {
+        max-width: 1023px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .container ul li {
+        display: inline;
+    }
+
+    .container ul li a {
+        list-style: none;
+        color: #fff;
+        text-decoration: none;
+        font-size: 1.2em;
+    }
+
+    .container-grid {
+        display: grid;
+        grid-template-columns: 40% 40%;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        justify-items: center;
+        margin-left: -20px;
+    }
+
+    .container ul li a:hover {
+        color: red;
+    }
+
+    section {
+        background-image: linear-gradient(to right, #c7c7c7, #bbbbbb, #afafaf, #a4a4a4, #989898, #898989, #7a7a7a, #6c6c6c, #575757, #434343, #2f2f2f, #1d1d1d);
+    }
+
+    section .container {
+        padding-top: 60px;
+        display: flex;
+        justify-content: space-between;
+        text-align: justify;
+        margin-top: -11px;
+        margin-left: 11px;
+    }
+
+    section h2 {
+        margin-bottom: 15px;
+    }
+
+    section p {
+        margin-left: 24px;
+    }
+
+    #topo p {
+        font-size: 1.4em;
+        margin-bottom: 9px;
+    }
+
+    #foto-interna {
+        height: 65vh;
+    }
+
+    #item img {
+        height: 25vh;
+    }
+
+    .destaque {
+        border-bottom: 2px solid red;
+        margin-bottom: 30px;
+        margin-left: 107px;
+        width: 79%;
+    }
+
+    .destaqueprod {
+        border-bottom: 2px solid red;
+        margin-bottom: 10px;
+        max-width: 810px;
+        width: 100%;
+        margin: 0 auto;
+        margin-left: 99px;
+    }
+
+    .lista-produtos {
+        flex-wrap: wrap;
+    }
+
+    .lista-produtos li {
+        list-style: none;
+        max-width: 93%;
+        margin-bottom: 40px;
+    }
+
+    .lista-produtos img {
+        width: 100%;
+    }
+
+    .lista-produtos li h3 {
+        margin: 16px 0;
+    }
+
+    .lista-produtos li p {
+        margin: 16px 0;
+    }
+
+    .item {
+        display: grid;
+        grid-template-columns: 20% 20%;
+        column-gap: 5%;
+        row-gap: 5%;
+    }
+
+    .itens {
+        max-width: 100%;
+    }
+
+    button {
+        display: block;
+        width: 100%;
+        padding: 8px 0;
+        margin-top: 10px;
+        background-color: #119759;
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+        font-style: italic;
+        border: none;
+        cursor: pointer;
+        border-radius: 6px;
     }
 }
