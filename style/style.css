@@ -128,7 +128,7 @@ section p {
 .destaque {
     border-bottom: 2px solid red;
     margin-bottom: 30px;
-    margin-left: 11px;
+    margin-left: 22px;
     width: 100%;
 }
 
@@ -220,7 +220,7 @@ button {
     }
 
     #topo {
-        margin-left: -10px;
+        margin-left: 11px;
     }
 
     .container {
@@ -239,7 +239,7 @@ button {
     .destaque {
         margin-bottom: 18px;
         margin-left: 26px;
-        width: 97%;
+        width: 102%;
     }
 
     .destaqueprod {
