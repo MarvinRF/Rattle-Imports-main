@@ -296,7 +296,12 @@ button {
     button {
         margin-bottom: 60px;
     }
+
+    footer .container {
+        max-width: 80%;
+    }
 }
+
 
 @media screen and (min-width: 641px) and (max-width: 1023px) {
 
@@ -467,5 +472,12 @@ button {
         border: none;
         cursor: pointer;
         border-radius: 6px;
+    }
+
+    footer .container {
+        max-width: 80%;
+    }
+    header .container {
+        max-width: 80%;
     }
 }
