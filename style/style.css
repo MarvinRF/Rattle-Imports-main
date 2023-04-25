@@ -202,8 +202,8 @@ button {
     #sobre .container p {
         font-size: 1.2em;
         padding-bottom: 5px;
-        margin-left: 24px;
         margin-right: -16px;
+        margin-left: 6%;
     }
 
     #sobre .container h2 {
@@ -217,10 +217,6 @@ button {
         padding-left: 6%;
         padding-top: 11%;
         padding-bottom: 5%;
-    }
-
-    #topo {
-        margin-left: 11px;
     }
 
     .container {
@@ -238,8 +234,8 @@ button {
 
     .destaque {
         margin-bottom: 18px;
-        margin-left: 26px;
-        width: 102%;
+        width: 99%;
+        margin-left: 6%;
     }
 
     .destaqueprod {
@@ -317,9 +313,9 @@ button {
     #sobre .container p {
         font-size: 1.6em;
         padding-bottom: 5px;
-        margin-left: 106px;
         width: 79%;
         text-align: justify;
+        margin-left: 11%;
     }
 
     #sobre .container h2 {
@@ -393,10 +389,6 @@ button {
         margin-bottom: 15px;
     }
 
-    section p {
-        margin-left: 24px;
-    }
-
     #topo p {
         font-size: 1.4em;
         margin-bottom: 9px;
@@ -413,7 +405,7 @@ button {
     .destaque {
         border-bottom: 2px solid red;
         margin-bottom: 24px;
-        margin-left: 106px;
+        margin-left: 11%;
         width: 79%;
     }
 
@@ -477,7 +469,8 @@ button {
     footer .container {
         max-width: 80%;
     }
-    header .container {
+    
+    header  .container {
         max-width: 80%;
     }
 }
